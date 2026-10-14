@@ -1,0 +1,121 @@
+{
+  "@@locale": "fr",
+  "appName": "MAR-Wether",
+  "searchHint": "Rechercher une ville marocaine…",
+  "emptySearch": "Tapez pour rechercher parmi les villes du Maroc",
+  "noResults": "Aucune ville trouvée",
+  "locateMe": "Me localiser",
+  "myLocation": "Ma position",
+  "outsideMoroccoNotice": "Hors du Maroc : météo de votre position exacte.",
+  "nearestCityIs": "Ville la plus proche : {city} · {distance} km",
+  "@nearestCityIs": {
+    "placeholders": {
+      "city": {"type": "String"},
+      "distance": {"type": "String"}
+    }
+  },
+  "fallbackPositionNotice": "Position exacte indisponible : dernière position connue utilisée.",
+  "fallbackCityNotice": "Position indisponible : Casablanca affichée par défaut.",
+  "favorites": "Favoris",
+  "noFavorites": "Touchez l’étoile d’une ville pour l’ajouter ici.",
+  "lastUpdated": "Dernière mise à jour : {time}",
+  "@lastUpdated": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "updatedJustNow": "à l’instant",
+  "updatedMinutesAgo": "il y a {minutes} min",
+  "@updatedMinutesAgo": {
+    "placeholders": {
+      "minutes": {"type": "String"}
+    }
+  },
+  "updatedHoursAgo": "il y a {hours} h",
+  "@updatedHoursAgo": {
+    "placeholders": {
+      "hours": {"type": "String"}
+    }
+  },
+  "retry": "Réessayer",
+  "errorTitle": "Quelque chose s’est mal passé",
+  "errorNetwork": "Pas de connexion. Vérifiez Internet et réessayez.",
+  "errorServer": "Le service météo est indisponible. Réessayez.",
+  "offlineBanner": "Hors connexion : données en cache du {time}.",
+  "@offlineBanner": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "feelsLike": "Ressenti {temp}",
+  "@feelsLike": {
+    "placeholders": {
+      "temp": {"type": "String"}
+    }
+  },
+  "todayMinMax": "Min {min} · Max {max}",
+  "@todayMinMax": {
+    "placeholders": {
+      "min": {"type": "String"},
+      "max": {"type": "String"}
+    }
+  },
+  "humidity": "Humidité",
+  "humidityValue": "{value} %",
+  "@humidityValue": {
+    "placeholders": {
+      "value": {"type": "String"}
+    }
+  },
+  "windSpeed": "Vent",
+  "windValue": "{value} km/h",
+  "@windValue": {
+    "placeholders": {
+      "value": {"type": "String"}
+    }
+  },
+  "hourlyTitle": "Prochaines 24 heures",
+  "dailyTitle": "Prévisions 7 jours",
+  "today": "Aujourd’hui",
+  "addFavorite": "Ajouter aux favoris",
+  "removeFavorite": "Retirer des favoris",
+  "settings": "Paramètres",
+  "language": "Langue",
+  "unit": "Unité",
+  "celsius": "Celsius (°C)",
+  "fahrenheit": "Fahrenheit (°F)",
+  "theme": "Thème",
+  "themeSystem": "Système",
+  "themeLight": "Clair",
+  "themeDark": "Sombre",
+  "about": "À propos",
+  "version": "Version {version}",
+  "@version": {
+    "placeholders": {
+      "version": {"type": "String"}
+    }
+  },
+  "aboutText": "MAR-Wether — la météo du Maroc. Données : Open-Meteo (usage non commercial). Coordonnées des villes : GeoNames / OpenStreetMap.",
+  "privacyTitle": "Politique de confidentialité",
+  "privacyText": "MAR-Wether ne collecte aucune donnée. Votre position GPS reste en mémoire et n’est jamais enregistrée ; seuls vos favoris, votre dernière ville et vos préférences sont stockés sur l’appareil.",
+  "permissionDeniedTitle": "Position nécessaire",
+  "permissionDeniedMessage": "Autorisez la localisation pour afficher la météo de votre position.",
+  "permissionDeniedForeverTitle": "Localisation bloquée",
+  "permissionDeniedForeverMessage": "Activez la localisation dans les réglages de l’application.",
+  "serviceDisabledTitle": "Localisation désactivée",
+  "serviceDisabledMessage": "Activez les services de localisation de l’appareil.",
+  "requestAgain": "Autoriser",
+  "openAppSettings": "Ouvrir les réglages",
+  "openLocationSettings": "Ouvrir les réglages de localisation",
+  "cancel": "Annuler",
+  "ok": "OK",
+  "wmoClear": "Dégagé",
+  "wmoPartlyCloudy": "Partiellement nuageux",
+  "wmoOvercast": "Couvert",
+  "wmoFog": "Brouillard",
+  "wmoDrizzle": "Bruine",
+  "wmoRain": "Pluie",
+  "wmoSnow": "Neige",
+  "wmoThunderstorm": "Orage",
+  "wmoUnknown": "—"
+}

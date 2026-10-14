@@ -1,0 +1,121 @@
+{
+  "@@locale": "ar",
+  "appName": "MAR-Wether",
+  "searchHint": "ابحث عن مدينة مغربية…",
+  "emptySearch": "اكتب للبحث بين مدن المغرب",
+  "noResults": "لا توجد مدينة مطابقة",
+  "locateMe": "موقعي",
+  "myLocation": "موقعي",
+  "outsideMoroccoNotice": "خارج المغرب: أحوال الطقس لموقعك الحالي.",
+  "nearestCityIs": "أقرب مدينة: {city} · على بعد {distance} كم",
+  "@nearestCityIs": {
+    "placeholders": {
+      "city": {"type": "String"},
+      "distance": {"type": "String"}
+    }
+  },
+  "fallbackPositionNotice": "تعذّر تحديد الموقع بدقة: تم استخدام آخر موقع معروف.",
+  "fallbackCityNotice": "تعذّر تحديد الموقع: يتم عرض الدار البيضاء افتراضيًا.",
+  "favorites": "المفضلة",
+  "noFavorites": "اضغط على النجمة لإضافة مدينة إلى المفضلة.",
+  "lastUpdated": "آخر تحديث: {time}",
+  "@lastUpdated": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "updatedJustNow": "الآن",
+  "updatedMinutesAgo": "قبل {minutes} د",
+  "@updatedMinutesAgo": {
+    "placeholders": {
+      "minutes": {"type": "String"}
+    }
+  },
+  "updatedHoursAgo": "قبل {hours} س",
+  "@updatedHoursAgo": {
+    "placeholders": {
+      "hours": {"type": "String"}
+    }
+  },
+  "retry": "إعادة المحاولة",
+  "errorTitle": "حدث خطأ",
+  "errorNetwork": "لا يوجد اتصال. تحقق من الإنترنت وحاول مجددًا.",
+  "errorServer": "خدمة الطقس غير متوفرة. حاول مجددًا.",
+  "offlineBanner": "بدون اتصال: بيانات مخزنة من {time}.",
+  "@offlineBanner": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "feelsLike": "الإحساس {temp}",
+  "@feelsLike": {
+    "placeholders": {
+      "temp": {"type": "String"}
+    }
+  },
+  "todayMinMax": "الصغرى {min} · الكبرى {max}",
+  "@todayMinMax": {
+    "placeholders": {
+      "min": {"type": "String"},
+      "max": {"type": "String"}
+    }
+  },
+  "humidity": "الرطوبة",
+  "humidityValue": "{value} %",
+  "@humidityValue": {
+    "placeholders": {
+      "value": {"type": "String"}
+    }
+  },
+  "windSpeed": "الرياح",
+  "windValue": "{value} كم/س",
+  "@windValue": {
+    "placeholders": {
+      "value": {"type": "String"}
+    }
+  },
+  "hourlyTitle": "الـ 24 ساعة القادمة",
+  "dailyTitle": "توقعات 7 أيام",
+  "today": "اليوم",
+  "addFavorite": "إضافة إلى المفضلة",
+  "removeFavorite": "إزالة من المفضلة",
+  "settings": "الإعدادات",
+  "language": "اللغة",
+  "unit": "الوحدة",
+  "celsius": "مئوية (°C)",
+  "fahrenheit": "فهرنهايت (°F)",
+  "theme": "المظهر",
+  "themeSystem": "النظام",
+  "themeLight": "فاتح",
+  "themeDark": "داكن",
+  "about": "حول التطبيق",
+  "version": "الإصدار {version}",
+  "@version": {
+    "placeholders": {
+      "version": {"type": "String"}
+    }
+  },
+  "aboutText": "MAR-Wether — أحوال الطقس في المغرب. البيانات: Open-Meteo (استخدام غير تجاري). الإحداثيات: GeoNames / OpenStreetMap.",
+  "privacyTitle": "سياسة الخصوصية",
+  "privacyText": "لا يجمع MAR-Wether أي بيانات. يبقى موقعك في الذاكرة ولا يُحفظ أبدًا؛ تُخزن فقط مدنك المفضلة وآخر مدينة وتفضيلاتك على جهازك.",
+  "permissionDeniedTitle": "الموقع مطلوب",
+  "permissionDeniedMessage": "اسمح بالوصول إلى الموقع لعرض طقس موقعك.",
+  "permissionDeniedForeverTitle": "تم حظر الموقع",
+  "permissionDeniedForeverMessage": "فعّل الموقع من إعدادات التطبيق.",
+  "serviceDisabledTitle": "خدمة الموقع متوقفة",
+  "serviceDisabledMessage": "فعّل خدمات الموقع في جهازك.",
+  "requestAgain": "سماح",
+  "openAppSettings": "فتح الإعدادات",
+  "openLocationSettings": "فتح إعدادات الموقع",
+  "cancel": "إلغاء",
+  "ok": "حسنًا",
+  "wmoClear": "صحو",
+  "wmoPartlyCloudy": "غائم جزئيًا",
+  "wmoOvercast": "غائم",
+  "wmoFog": "ضباب",
+  "wmoDrizzle": "رذاذ",
+  "wmoRain": "مطر",
+  "wmoSnow": "ثلج",
+  "wmoThunderstorm": "عاصفة رعدية",
+  "wmoUnknown": "—"
+}

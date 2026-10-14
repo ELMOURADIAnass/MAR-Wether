@@ -1,0 +1,121 @@
+{
+  "@@locale": "en",
+  "appName": "MAR-Wether",
+  "searchHint": "Search a Moroccan city…",
+  "emptySearch": "Type to search among Moroccan cities",
+  "noResults": "No matching city",
+  "locateMe": "Locate me",
+  "myLocation": "My location",
+  "outsideMoroccoNotice": "Outside Morocco: weather for your exact position.",
+  "nearestCityIs": "Nearest city: {city} · {distance} km",
+  "@nearestCityIs": {
+    "placeholders": {
+      "city": {"type": "String"},
+      "distance": {"type": "String"}
+    }
+  },
+  "fallbackPositionNotice": "Exact fix unavailable: last known position used.",
+  "fallbackCityNotice": "Position unavailable: showing Casablanca by default.",
+  "favorites": "Favorites",
+  "noFavorites": "Tap the star on a city to add it here.",
+  "lastUpdated": "Last updated: {time}",
+  "@lastUpdated": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "updatedJustNow": "just now",
+  "updatedMinutesAgo": "{minutes} min ago",
+  "@updatedMinutesAgo": {
+    "placeholders": {
+      "minutes": {"type": "String"}
+    }
+  },
+  "updatedHoursAgo": "{hours} h ago",
+  "@updatedHoursAgo": {
+    "placeholders": {
+      "hours": {"type": "String"}
+    }
+  },
+  "retry": "Retry",
+  "errorTitle": "Something went wrong",
+  "errorNetwork": "No connection. Check the internet and try again.",
+  "errorServer": "Weather service unavailable. Try again.",
+  "offlineBanner": "Offline: cached data from {time}.",
+  "@offlineBanner": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "feelsLike": "Feels like {temp}",
+  "@feelsLike": {
+    "placeholders": {
+      "temp": {"type": "String"}
+    }
+  },
+  "todayMinMax": "Min {min} · Max {max}",
+  "@todayMinMax": {
+    "placeholders": {
+      "min": {"type": "String"},
+      "max": {"type": "String"}
+    }
+  },
+  "humidity": "Humidity",
+  "humidityValue": "{value} %",
+  "@humidityValue": {
+    "placeholders": {
+      "value": {"type": "String"}
+    }
+  },
+  "windSpeed": "Wind",
+  "windValue": "{value} km/h",
+  "@windValue": {
+    "placeholders": {
+      "value": {"type": "String"}
+    }
+  },
+  "hourlyTitle": "Next 24 hours",
+  "dailyTitle": "7-day forecast",
+  "today": "Today",
+  "addFavorite": "Add to favorites",
+  "removeFavorite": "Remove from favorites",
+  "settings": "Settings",
+  "language": "Language",
+  "unit": "Unit",
+  "celsius": "Celsius (°C)",
+  "fahrenheit": "Fahrenheit (°F)",
+  "theme": "Theme",
+  "themeSystem": "System",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "about": "About",
+  "version": "Version {version}",
+  "@version": {
+    "placeholders": {
+      "version": {"type": "String"}
+    }
+  },
+  "aboutText": "MAR-Wether — Morocco weather. Data: Open-Meteo (non-commercial use). City coordinates: GeoNames / OpenStreetMap.",
+  "privacyTitle": "Privacy policy",
+  "privacyText": "MAR-Wether collects no data. Your GPS position stays in memory and is never stored; only your favorites, last city and preferences are kept on the device.",
+  "permissionDeniedTitle": "Location needed",
+  "permissionDeniedMessage": "Allow location access to show the weather at your position.",
+  "permissionDeniedForeverTitle": "Location blocked",
+  "permissionDeniedForeverMessage": "Enable location in the app settings.",
+  "serviceDisabledTitle": "Location services off",
+  "serviceDisabledMessage": "Enable the device location services.",
+  "requestAgain": "Allow",
+  "openAppSettings": "Open settings",
+  "openLocationSettings": "Open location settings",
+  "cancel": "Cancel",
+  "ok": "OK",
+  "wmoClear": "Clear",
+  "wmoPartlyCloudy": "Partly cloudy",
+  "wmoOvercast": "Overcast",
+  "wmoFog": "Fog",
+  "wmoDrizzle": "Drizzle",
+  "wmoRain": "Rain",
+  "wmoSnow": "Snow",
+  "wmoThunderstorm": "Thunderstorm",
+  "wmoUnknown": "—"
+}
